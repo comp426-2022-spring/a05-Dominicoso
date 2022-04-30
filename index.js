@@ -22,7 +22,7 @@ if (args.help || args.h) {
 var express = require('express')
 var app = express()
 
-const fs = require('morgan')
+const fs = require('fs')
 
 const morgan = require('morgan')
 
